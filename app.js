@@ -178,16 +178,10 @@ for (let i = start; i <= z; i++)
      {
       console.log(i +  " FIZZ, ");
       document.write(i +  " FIZZ, ");
-    }
-
-
-    if (i % buzzDivisor === 0 ) {
+    }else if (i % buzzDivisor === 0 ) {
       console.log(i +  " BUZZ, ");
       document.write(i +  " BUZZ, ");
-    } 
-
-
-    if (i % fizzDivisor === 0 && i % buzzDivisor === 0 ) {
+    }else if (i % fizzDivisor === 0 && i % buzzDivisor === 0 ) {
       console.log(i +  " FIZZBUZZ, ");
       document.write(i +  " FIZZBUZZ, ");
     } 
