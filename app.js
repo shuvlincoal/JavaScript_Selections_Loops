@@ -7,7 +7,7 @@ document.write("<br>===================================<br>");
 
 for (let i = 0; i < 100; i++)
  {
-    if (i % 2 === 0 ) {
+    if (i % 3 === 0 ) {
         console.log   (i + ", ");
         document.write(i + ", ");
     } 
@@ -23,16 +23,10 @@ for (let i = 0; i < 100; i++)
      {
       console.log(i +  " FIZZ, ");
       document.write(i +  " FIZZ, ");
-    }
-
-
-    if (i % 5 === 0 ) {
+     }else if (i % 5 === 0 ) {
       console.log(i +  " BUZZ, ");
       document.write(i +  " BUZZ, ");
-    } 
-
-
-    if (i % 3 === 0 && i % 5 === 0 ) {
+    } else if (i % 3 === 0 && i % 5 === 0 ) {
       console.log(i +  " FIZZBUZZ, ");
       document.write(i +  " FIZZBUZZ, ");
     } 
