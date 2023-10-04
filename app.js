@@ -20,13 +20,14 @@ document.write("<br>===================================<br>");
 for (let i = 0; i < 100; i++) 
   {
     if (i % 3 === 0 )
-     {
-      console.log(i +  " FIZZ, ");
+     {console.log(i +  " FIZZ, ");
       document.write(i +  " FIZZ, ");
-     }else if (i % 5 === 0 ) {
+     }
+     if (i % 5 === 0 ) {
       console.log(i +  " BUZZ, ");
       document.write(i +  " BUZZ, ");
-    } else if (i % 3 === 0 && i % 5 === 0 ) {
+    }
+     if (i % 3 === 0 && i % 5 === 0 ) {
       console.log(i +  " FIZZBUZZ, ");
       document.write(i +  " FIZZBUZZ, ");
     } 
@@ -172,10 +173,12 @@ for (let i = start; i <= z; i++)
      {
       console.log(i +  " FIZZ, ");
       document.write(i +  " FIZZ, ");
-    }else if (i % buzzDivisor === 0 ) {
+    }
+     if (i % buzzDivisor === 0 ) {
       console.log(i +  " BUZZ, ");
       document.write(i +  " BUZZ, ");
-    }else if (i % fizzDivisor === 0 && i % buzzDivisor === 0 ) {
+    }
+    if (i % fizzDivisor === 0 && i % buzzDivisor === 0 ) {
       console.log(i +  " FIZZBUZZ, ");
       document.write(i +  " FIZZBUZZ, ");
     } 
